@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+   font-family: "Roboto", sans-serif;
+}
+.navbar-sticky {
+   position: sticky;
+   top: 0;
+   z-index: 1000; 
+  
+}
+.title {
+   border-top: 8px solid #3fbabf;
+   padding-top: 30px;
+}
+
+.navbar,
+.btn {
+   background-color: #3fbabf;
+}
+
+.Appointment {
+   background-color: #3fbabf;
+   list-style-type: none;
+
+}
+
+.carousel-item img {
+   height: 100vh;
+}
+
+.carousel-caption {
+   background-color: #f3f4f8;
+
+}
+
+.carousel-indicators button {
+   height: 10px !important;
+   width: 10px !important;
+   border-radius: 50% !important;
+}
+
+.carousel-indicators button:hover {
+   background-color: #3fbabf;
+}
+
+.underline {
+   text-decoration: underline #3fbabf;
+   position: relative;
+   
+   
+}
+.underline::before,.underline::after{
+   content: "";
+   display: block;
+   
+   position: absolute;
+   bottom: 5px ;
+
+}
+
+.back-ground {
+   background-color: #f7fdfd;
+}
+
+
+.nav-link {
+   color: #000;
+}
+
+.nav-link:hover {
+   color: #3fbabf;
+}
+.border-top,.text {
+   color: #3fbabf;
+}
+.line{
+   text-decoration: none;
+}
+.font-weight-bold{
+   font-weight: 200px;
+   font: bold;
+}
+.color{
+   color:  #3fbabf;
+}
